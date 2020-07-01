@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "KRCommonUIComponents"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "通用UI组件"
 
   # This description is used to generate tags and improve search results.
@@ -101,7 +101,7 @@ Pod::Spec.new do |spec|
   end
   
   spec.subspec 'QCheckbox' do |checkbox|
-  checkbox.source_files = "KRCommonUIComponents/QCheckbox/**/*"
+  checkbox.source_files = "KRCommonUIComponents/QCheckbox/Class/**/*"
   checkbox.frameworks = 'UIKit'
   end
   
@@ -131,7 +131,7 @@ Pod::Spec.new do |spec|
   # spec.resources = "Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
+  spec.resource_bundles = {'CheckBox'=> ['KRCommonUIComponents/QCheckbox/Assets/*.png']}
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
