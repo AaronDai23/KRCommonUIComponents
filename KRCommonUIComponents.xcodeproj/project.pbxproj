@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -223,12 +223,8 @@
 		071A5D3524AB9B4700644010 /* QCheckbox */ = {
 			isa = PBXGroup;
 			children = (
-				071A5D4424AB9C1600644010 /* checkbox1_checked.png */,
-				071A5D4724AB9C1600644010 /* checkbox1_checked@2x.png */,
-				071A5D4824AB9C1600644010 /* checkbox1_unchecked.png */,
-				071A5D4324AB9C1600644010 /* checkbox1_unchecked@2x.png */,
-				071A5D4524AB9C1600644010 /* QCheckBox.h */,
-				071A5D4624AB9C1600644010 /* QCheckBox.m */,
+				071A5D6324AD4B9400644010 /* Class */,
+				071A5D6224AD4AFC00644010 /* Assets */,
 			);
 			path = QCheckbox;
 			sourceTree = "<group>";
@@ -248,13 +244,32 @@
 			path = Draw;
 			sourceTree = "<group>";
 		};
+		071A5D6224AD4AFC00644010 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				071A5D4424AB9C1600644010 /* checkbox1_checked.png */,
+				071A5D4724AB9C1600644010 /* checkbox1_checked@2x.png */,
+				071A5D4824AB9C1600644010 /* checkbox1_unchecked.png */,
+				071A5D4324AB9C1600644010 /* checkbox1_unchecked@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		071A5D6324AD4B9400644010 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				071A5D4524AB9C1600644010 /* QCheckBox.h */,
+				071A5D4624AB9C1600644010 /* QCheckBox.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 		31D518B3F628C67B8F4E19BD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				EFEFF4D506E504E571E18C12 /* Pods-KRCommonUIComponents.debug.xcconfig */,
 				7089655B5C3ECCEBDA98F6AE /* Pods-KRCommonUIComponents.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
